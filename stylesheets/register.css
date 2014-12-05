@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{ background-color:#333; }
+
+.BodyLayer{
+	background-color:#FFFFFF;
+	margin-left:10%;
+	margin-right:10%;
+	margin-bottom:0px;
+	margin-top:0px;
+	padding-bottom:0px;
+	padding-left:0px;
+	padding-right:0px;
+	padding-top:0px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+}
+
+#LogoLayer{
+	border-top:0px;
+	border-bottom:1px;
+	border-left:0px;
+	border-right:0px;
+	border-style:groove;
+	border-color:#FFF;
+	margin-bottom:5%
+}
+
+#ImgLogo1{ width:60%; height:15%; }
+
+a{ color:#03F; text-decoration:none }
+a:visited{ color:#03F; text-decoration:none }
+a:hover{
+	color:#03F;
+	text-decoration:underline; 
+	font-size:18px; 
+	font-family:"Courier New", Courier, monospace;	
+}
+
+#InfoLayer{ 
+	margin-top:70px;
+	border-top:1px;
+	border-bottom:0px;
+	border-left:0px;
+	border-right:0px;
+	border-style:groove;
+	border-color:#FFF;
+	padding:1px;
+}
+
+h1{ 
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif; 
+	text-align:center;
+	color:#F00;
+}
+
+#FormLayer{
+	background-color:#FFF;
+	margin-top:5%;
+	margin-bottom:5%;
+}

@@ -1,0 +1,115 @@
+@charset "utf-8";
+/* CSS Document */
+/* Life Runs On Code */
+
+body{ background-color:#333; }
+
+.BodyLayer{
+	background-color:#FFFFFF;
+	margin-left:10%;
+	margin-right:10%;
+	margin-bottom:0px;
+	margin-top:0px;
+	padding-bottom:0px;
+	padding-left:0px;
+	padding-right:0px;
+	padding-top:0px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+}
+
+#LogoLayer{
+	border-top:0px;
+	border-bottom:1px;
+	border-left:0px;
+	border-right:0px;
+	border-style:groove;
+	border-color:#FFF;
+}
+
+#ImgLogo1{ width:60%; height:15%; }
+
+a{ color:#03F; text-decoration:none }
+a:visited{ color:#03F; text-decoration:none }
+a:hover{
+	color:#03F;
+	text-decoration:underline; 
+	font-size:18px; 
+	font-family:"Courier New", Courier, monospace;	
+}
+
+#InfoLayer{ 
+	margin-top:70px;
+	border-top:1px;
+	border-bottom:0px;
+	border-left:0px;
+	border-right:0px;
+	border-style:groove;
+	border-color:#FFF;
+	padding:1px;
+}
+
+h1{ 
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif; 
+	text-align:center;
+	color:#F00;
+}
+
+#TopMenu{ margin-top:20px; }
+
+.UserOptionsTable{ 
+	width:100%;
+	height:50px;
+	border:2px;
+	border-radius:5px 5px;
+	border-color:#000;
+	border-style:solid;
+	padding:5px;
+}
+
+#Cells{
+	border:2px;
+	border-radius:3px 3px;
+	border-color:#000;
+	border-bottom-style:solid;
+	background-color:#000;
+	font-size:14px;
+	padding-right:5px;
+}
+
+#InTableLink{ color:#FFF; }
+
+#MenuLayer{
+	margin-top:50px; 
+	margin-bottom:0px; 
+	margin-right:0px;
+	margin-left:0px;
+	background-color:#FFF;
+	float:left;
+	width:25%;
+	height:100%;
+}
+
+#MainLayer{  
+	background-color:#FFF; 
+	margin-top:50px;
+	margin-bottom:0px;
+	margin-right:0px;
+	margin-left:0px;
+	padding-left:28%;
+	padding-right:4%;
+	padding-bottom:0px;
+	padding-top:0px;
+	width:96,7%;
+	height:100%;
+}
+
+.BrowseTable{
+	width:100%;
+	height:150px;
+	border:2px;
+	border-radius:5px 5px;
+	border-color:#000;
+	border-style:solid;
+	padding:7px;	
+}

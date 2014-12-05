@@ -1,0 +1,5 @@
+<?php
+	include_once("mydbclass.php");
+	$db = new myDB('weblab.teipir.gr', 'www38031', 'w00006d2e5');
+	$db->SelectDB('www38031');
+?>
